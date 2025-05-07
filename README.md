@@ -48,7 +48,7 @@ This is a **Flask-based machine learning web application** that predicts whether
   - Number of Procedures, Days in Hospital  
   - Number of Existing Health Conditions, Discharge Code
 
-- ⚡ **Real‑time prediction** of hospital readmission risk using a Random Forest Classifier
+- ⚡ **Real‑time prediction** of hospital readmission risk using a Random Forest Classifier🌲
 
 - 🟢🔴 **Color-coded results**:
   - 🔴 High Risk – Likely to be readmitted  
@@ -68,7 +68,7 @@ This is a **Flask-based machine learning web application** that predicts whether
 
 - **Model Type**: Random Forest Classifier  
 - **Framework**: Scikit-learn  
-- **Training Data**: Historical hospital readmission dataset (not included here)  
+- **Training Data**: Historical hospital readmission dataset   
 - **Target Variable**: Binary classification (0 = No readmission, 1 = Readmitted)
 
 The model is pre-trained and stored as a `.pkl` file (`rf_model.pkl`) located in the `/model` directory.
