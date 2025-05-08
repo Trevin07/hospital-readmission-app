@@ -36,6 +36,13 @@
   </a>
 </p>
 
+## 📸 Screenshots
+
+
+  <img src="static/screenshot1.png" alt="Input Form" width="100%" />
+  <img src="static/screenshot2.png" alt="Prediction Result" width="100%" />
+  <img src="static/screenshot3.png" alt="Advice Section" width="100%" />
+</p>
 
 This is a **Flask-based machine learning web application** that predicts whether a patient is at risk of being readmitted to the hospital. It uses a **trained Random Forest model** to provide real-time insights based on key clinical and demographic inputs.
 
@@ -120,13 +127,6 @@ The model is pre-trained and stored as a `.pkl` file (`rf_model.pkl`) located in
 
 ---
 
-## 📸 Screenshots
-
-
-  <img src="static/screenshot1.png" alt="Input Form" width="100%" />
-  <img src="static/screenshot2.png" alt="Prediction Result" width="100%" />
-  <img src="static/screenshot3.png" alt="Advice Section" width="100%" />
-</p>
 
 ---
 
