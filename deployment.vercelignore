@@ -1,0 +1,45 @@
+
+
+# ========================
+# 1. BLOCK LARGE FILES
+# ========================
+# Data files
+*.csv
+*.pkl
+*.h5
+*.joblib
+*.npy
+*.npz
+*.feather
+*.parquet
+
+# Model files (unless optimized)
+*.pt
+*.onnx
+*.pb
+*.hd5
+
+# ========================
+# 2. BLOCK DEV/ENV FILES
+# ========================
+.ipynb_checkpoints/
+__pycache__/
+*.ipynb
+*.pyc
+*.pyo
+.DS_Store
+.env*
+*.local
+venv/
+*.egg-info/
+dist/
+build/
+
+# ========================
+# 3. WHITELIST ESSENTIALS
+# ========================
+!app.py
+!requirements.txt
+!static/**
+!templates/**
+!model/optimized_model.joblib  # Only if <50MB
